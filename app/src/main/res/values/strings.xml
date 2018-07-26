@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">RoomDataBase</string>
+    <string name="edit_text_hint">Enter Country Name</string>
+    <string name="save_btn_text">Save</string>
+</resources>
