@@ -23,8 +23,7 @@ public class CountryRepository {
 
 
     public void insertCountry(Country name){
-        countryDao.insert(name);
-        //new InsertAsync(countryDao).execute();
+        new InsertAsync(countryDao).execute(name);
     }
 
     private class InsertAsync extends AsyncTask<Country, Void, Void> {
